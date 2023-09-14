@@ -3,13 +3,27 @@
 <head>
     <title>Profile</title>
     <style>
-        /* Add a background color and better font */
+        /* Add a background image */
         body {
-            background-color: #f4f4f4;
+            background-image: url('background.jpg'); /* Replace 'background.jpg' with your image path */
+            background-size: cover;
+            background-repeat: no-repeat;
             font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
         }
 
         /* Improve profile picture style */
+        .profile {
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for the profile */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 400px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+
         .profile-picture {
             border: 4px solid #0066cc;
             border-radius: 50%;
@@ -43,7 +57,7 @@
     </style>
 </head>
 <body>
-<div class="profile" style="text-align: center;">
+<div class="profile">
     <!-- Profile picture -->
     <img src="myphoto.png" class="profile-picture" width="150" height="150">
 
@@ -71,4 +85,5 @@
 </div>
 </body>
 </html>
+
 
