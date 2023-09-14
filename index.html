@@ -1,65 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Profile</title>
     <style>
-      /* Add a border around the profile picture */
-      .profile-picture {
-        border: 2px solid #333;
-        border-radius: 50%;
-      }
+        /* Add a background color and better font */
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+        }
 
-      /* Change the font and color of the profile name */
-      .profile-name {
-        font-family: Arial, sans-serif;
-        font-size: 24px;
-        color: #0066cc;
-      }
+        /* Improve profile picture style */
+        .profile-picture {
+            border: 4px solid #0066cc;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
 
-      /* Add a blue background color to the profile bio */
-      .profile-bio {
-        background-color: #e6f2ff;
-        padding: 20px;
-      }
+        /* Style the profile name */
+        .profile-name {
+            font-size: 32px;
+            color: #0066cc;
+            margin-top: 10px;
+        }
 
-      /* Change the font and color of the profile location */
-      .profile-location {
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-        color: #666666;
-      }
+        /* Enhance the bio section */
+        .profile-bio {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
 
-      /* Add some hover effects to the profile links */
-      .profile-link:hover {
-        color: #0066cc;
-        text-decoration: underline;
-      }
+        /* Style the location */
+        .profile-location {
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Add hover effects to links */
+        .profile-link:hover {
+            color: #0066cc;
+        }
     </style>
-  </head>
-  <body>
-    <div class="profile">
-      <!-- Profile picture -->
-      <img src="myphoto.png" class="profile-picture">
+</head>
+<body>
+<div class="profile" style="text-align: center;">
+    <!-- Profile picture -->
+    <img src="myphoto.png" class="profile-picture" width="150" height="150">
 
-      <!-- Profile name -->
-      <h1 class="profile-name">Muhammed Shahil P</h1>
+    <!-- Profile name -->
+    <h1 class="profile-name">Muhammed Shahil P</h1>
 
-      <!-- Profile bio -->
-      <div class="profile-bio">
-        Hi, I'm Muhammed Shahil and I am a BCA student at Calicut University. I am passionate about technology and its potential to change the world. In my free time, I enjoy learning about new programming languages and working on personal projects. I am always looking for new opportunities to grow and learn, and I am excited to see where my career in technology takes me. Feel free to connect with me on LinkedIn or check out my portfolio to see some of my work."
-
-This bio introduces you and gives a brief overview of your interests and goals. You can customize it to fit your own personality and goals. You can also include links to your LinkedIn profile, portfolio, or other websites where people can learn more about you.
-      </div>
-
-      <!-- Profile location -->
-      <p class="profile-location">Calicut, KKD</p>
-
-      <!-- Profile links -->
-      <div class="profile-links">
-        <a href="https://www.linkedin.com/in/muhammed-shahil-69743b23b" class="profile-link"><img src="linkedin.png" height="50" width="50"></a>
-        <a href="https://github.com/Shahil2003" class="profile-link"><img src="github.png" height="50" width="50"</a>
-        <a href="#" class="profile-link">Portfolio</a>
-      </div>
+    <!-- Profile bio -->
+    <div class="profile-bio">
+        <p>Hi, I'm Muhammed Shahil and I am a BCA student at Calicut University. I am passionate about technology and its potential to change the world. In my free time, I enjoy learning about new programming languages and working on personal projects. I am always looking for new opportunities to grow and learn, and I am excited to see where my career in technology takes me.</p>
+        <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/muhammed-shahil-69743b23b" class="profile-link">LinkedIn</a> or check out my <a href="#" class="profile-link">portfolio</a> to see some of my work.</p>
     </div>
-  </body>
+
+    <!-- Profile location -->
+    <p class="profile-location">Calicut, KKD</p>
+
+    <!-- Profile links -->
+    <div class="profile-links">
+        <a href="https://www.linkedin.com/in/muhammed-shahil-69743b23b" class="profile-link">
+            <img src="linkedin.png" width="40" height="40">
+        </a>
+        <a href="https://github.com/Shahil2003" class="profile-link">
+            <img src="github.png" width="40" height="40">
+        </a>
+    </div>
+</div>
+</body>
 </html>
+
